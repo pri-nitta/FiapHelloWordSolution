@@ -51,4 +51,31 @@ switch (idade)
         break;
         }
 
+for (int i = 0; i <= 100; i++)
+{
+    Console.WriteLine("Valor " + i);
+}
+Console.Read();
 
+int x = 0;
+
+while(x < 21)
+{
+    Console.WriteLine(x);
+    x ++;
+}
+
+int y = 0;
+do
+{
+    Console.Write(y + " ");
+    y ++;
+}while(y < 11);
+
+
+string[] lista = { "exatas", "humanas", "biologicas" };
+
+foreach (var item in lista)
+{
+    Console.Write(item + " ");
+}
